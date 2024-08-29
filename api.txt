@@ -1,0 +1,28 @@
+weather api =  55cbecffb4094cebb0445017242708
+
+google map api =   AIzaSyBFpzPw_lijrB0r6-XG2bdFIMXvRlnPgcE
+
+https://www.google.com/maps/embed/v1/place?key=API_KEY&q=${location}
+
+https://www.weatherapi.com/docs/v1
+
+https://api.weatherapi.com/v1/forecast.json?key=55cbecffb4094cebb0445017242708&q=Panadura&days=5
+
+https://www.bing.com/maps?osid=c1ca445e-69f5-4d84-bd57-32bddc97c87c&cp=6.712473~79.899144&lvl=16&pi=0&v=2&sV=2&form=S00027
+
+
+<iframe
+            width="600"
+            height="450"
+            style="border:0"
+            loading="lazy"
+            allowfullscreen
+            referrerpolicy="no-referrer-when-downgrade"
+            src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAvVBzteUSSKmBoy2ymGs82hLBMlW5yC38&q=${location}"></iframe>
+
+
+<iframe src="https://www.google.com/maps/embed?pb=galle" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31740.42371815506!2d80.1913974627742!3d6.055891161509371!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae173bb6932fce3%3A0x4a35b903f9c64c03!2sGalle!5e0!3m2!1sen!2slk!4v1724924080380!5m2!1sen!2slk" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3967.2789966568503!2d80.23826727588323!3d6.093070093893235!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNsKwMDUnMzUuMSJOIDgwwrAxNCcyNy4wIkU!5e0!3m2!1sen!2slk!4v1724926094036!5m2!1sen!2slk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
