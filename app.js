@@ -45,7 +45,7 @@ function getAPI(bdcAPI){
         if(this.readyState == 4 && this.status == 200){
             result = JSON.parse(this.responseText);
             myMap(result);
-            load(result.localityInfo.administrative[2].name);
+            load(result.city);
         }
     }
 }
