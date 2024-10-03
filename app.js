@@ -8,7 +8,7 @@ document.getElementById("map").innerHTML = `<div id="googleMap" style="width:100
 
 function load(location){
     fetch(`https://api.weatherapi.com/v1/forecast.json?key=55cbecffb4094cebb0445017242708&q=${location}&days=5`).then(res=>res.json()).then(data=>{
-        for (let i = 0; i < 5; i++) {
+        for (let i = 0; i < 3; i++) {
             document.getElementById(`img${i+1}`).innerHTML= `<p>${data.forecast.forecastday[i].date}</p><img src="${data.forecast.forecastday[i].day.condition.icon}" class="rounded mx-auto d-block" alt="Hello" ><p id="maintext">${data.forecast.forecastday[i].day.avgtemp_c}</p><p>${data.forecast.forecastday[i].day.condition.text}</p>`;
         }
         document.getElementById("wind").innerHTML = `<h1>Wind</h1><br><p id="maintext">Wind_mph : ${data.current.wind_mph}</p><p id="maintext">Direction : ${data.current.wind_dir}</p>`;
